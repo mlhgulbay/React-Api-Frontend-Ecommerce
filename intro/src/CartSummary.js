@@ -10,9 +10,6 @@ import {
   } from "reactstrap";
   import {Link} from "react-router-dom"
 
-  /**
-   * 
-   */
 export default class CartSummary extends Component {
     
         renderSummary(){
@@ -26,7 +23,7 @@ export default class CartSummary extends Component {
                     this.props.cart.map(cartItem =>(//her bir dropdown ıtem için elemanları gösterme
                       <DropdownItem key ={cartItem.product.id}>
                         <Badge color="danger" onClick = {()=>this.props.removeFromCart(cartItem.product)}>
-                        Sil
+                         Sepetten Sil
                         </Badge>
                           {cartItem.product.productName}
                           <Badge color="success">

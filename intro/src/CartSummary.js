@@ -10,6 +10,9 @@ import {
   } from "reactstrap";
   import {Link} from "react-router-dom"
 
+  /**
+   * 
+   */
 export default class CartSummary extends Component {
     
         renderSummary(){

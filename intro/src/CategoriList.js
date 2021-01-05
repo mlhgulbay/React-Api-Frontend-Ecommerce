@@ -33,7 +33,6 @@ export default class CategoriList extends Component {//this.props.title yapısı
                             ))
                     }  
                 </ListGroup>
-            {/* <h4>{this.props.currentCategory}</h4> */}
             </div>
         )
     }
